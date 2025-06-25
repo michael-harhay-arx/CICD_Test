@@ -1,0 +1,29 @@
+name: Build and Test CVI 2019 Project
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Run CVI build script
+      run: .\build.bat
+
+    - name: Run tests
+      run: .\test.bat
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: CVI-Build-Output
+        path: |
+          **\*.exe
+          **\*.dll
