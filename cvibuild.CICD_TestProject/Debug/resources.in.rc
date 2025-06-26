@@ -1,12 +1,12 @@
 #include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
 
-2 ICON "c:\\program files (x86)\\national instruments\\cvi2019\\bin\\default.ico"
-1 24 "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\manifest.xml"
+
+2 24 "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\manifest.xml"
 
 
 STRINGTABLE DISCARDABLE
 BEGIN
-  65535  "CICD_TestProject"
+  65535  ""
 END
 
 VS_VERSION_INFO VERSIONINFO
@@ -15,7 +15,7 @@ VS_VERSION_INFO VERSIONINFO
  FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
  FILEFLAGS 0x1L
  FILEOS VOS__WINDOWS32
- FILETYPE VFT_APP
+ FILETYPE VFT_DLL
  FILESUBTYPE VFT_UNKNOWN
 BEGIN
     BLOCK "StringFileInfo"
@@ -27,7 +27,7 @@ BEGIN
             VALUE "FileVersion", "1.0\0"
             VALUE "InternalName", "CICD_TestProject\0"
             VALUE "LegalCopyright", "Copyright   2025\0"
-            VALUE "OriginalFilename", "CICD_TestProject.exe\0"
+            VALUE "OriginalFilename", "CICD_TestProject.dll\0"
             VALUE "ProductName", " CICD_TestProject\0"
             VALUE "ProductVersion", "1.0\0"
         END

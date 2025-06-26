@@ -55,18 +55,16 @@ Window Top = 31
 Window Z-Order = 2
 
 [File 0002]
-Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests.c"
-File Type = "CSource"
-Disk Date = 3833729335
-In Projects = ""
-Source Window State = "1,2,2,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,2,1,401,686,1,0,"
-Window Top = 33
-Window Left = 10
+Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
+File Type = "Include"
+Disk Date = 3833793395
+In Projects = "1,"
+Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400,600,0,0,"
 Window Z-Order = 1
 
 [Tab Order]
 Tab 0001 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/main.c"
-Tab 0002 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests.c"
+Tab 0002 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True
