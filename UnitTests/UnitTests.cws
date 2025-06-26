@@ -12,7 +12,7 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "UnitTests.prj"
-Drag Bar Left = 354
+Drag Bar Left = 567
 Window Top = 337
 Window Left = 552
 Window Bottom = 667
@@ -30,9 +30,9 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 3
+Number of Opened Files = 5
 Window Confinement Region Enabled = True
-MainColumnWidth = 337
+MainColumnWidth = 550
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -50,19 +50,21 @@ Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.c"
 File Type = "CSource"
 Disk Date = 3833806693
 In Projects = "1,"
-Source Window State = "1,13,13,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,13,1,400,600,1,0,"
+Source Window State = "1,8,8,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,8,8,400,600,1,0,"
+Breakpoint 0001 = "9,0,enabled,"
+Tracepoint 0001 = "0,0,10,1,"
 Window Top = 31
-Window Z-Order = 2
+Window Z-Order = 1
 
 [File 0002]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.h"
 File Type = "Include"
 Disk Date = 3833811696
 In Projects = "1,"
-Source Window State = "1,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,401,686,1,0,"
+Source Window State = "1,20,20,20,15,15,15,0,0,0,0,0,0,0,0,0,3,0,20,15,401,686,1,0,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 1
+Window Z-Order = 4
 
 [File 0003]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/main.c"
@@ -72,18 +74,40 @@ In Projects = "1,"
 Source Window State = "1,2,2,2,10,10,10,0,0,0,0,0,0,0,0,0,0,0,2,10,401,686,1,0,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 3
+Window Z-Order = 5
 
 [File 0004]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/CICD_TestProject.lib"
 File Type = "Library"
-Disk Date = 3833814595
+Disk Date = 3833817563
 In Projects = "1,"
+
+[File 0005]
+Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
+File Type = "Include"
+Disk Date = 3833806389
+In Projects = ""
+Source Window State = "1,9,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9,0,401,630,1,0,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 3
+
+[File 0006]
+Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.c"
+File Type = "CSource"
+Disk Date = 3833816199
+In Projects = ""
+Source Window State = "1,9,9,9,29,29,29,0,0,0,0,0,0,0,0,0,0,0,9,29,401,630,1,0,"
+Window Top = 126
+Window Left = 58
+Window Z-Order = 2
 
 [Tab Order]
 Tab 0001 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/main.c"
 Tab 0002 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.c"
 Tab 0003 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.h"
+Tab 0004 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
+Tab 0005 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.c"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

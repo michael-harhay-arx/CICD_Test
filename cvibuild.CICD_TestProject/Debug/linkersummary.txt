@@ -1,6 +1,6 @@
 ProjectCode.obj
-cvi.lib
 cvistart.lib
+cvi.lib
 kernel32.lib
 user32.lib
 CVI_UP_Product_Dependencies_Private_Object
