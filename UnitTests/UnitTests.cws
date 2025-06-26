@@ -50,19 +50,19 @@ Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.c"
 File Type = "CSource"
 Disk Date = 3833806693
 In Projects = "1,"
-Source Window State = "1,7,7,7,24,24,24,0,0,0,0,0,0,0,0,0,0,0,7,24,400,600,1,0,"
+Source Window State = "1,13,13,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,13,1,400,600,1,0,"
 Window Top = 31
-Window Z-Order = 1
+Window Z-Order = 2
 
 [File 0002]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.h"
 File Type = "Include"
 Disk Date = 3833811696
 In Projects = "1,"
-Source Window State = "1,20,20,20,23,23,23,0,0,0,0,0,0,0,0,0,0,0,20,23,401,686,1,0,"
+Source Window State = "1,24,24,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,401,686,1,0,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 2
+Window Z-Order = 1
 
 [File 0003]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/main.c"
