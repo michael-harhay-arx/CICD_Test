@@ -14,12 +14,20 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Run CVI build script
+    - name: Build CVI project
       run: .\build.bat
- 
-    - name: Run tests
+
+  test:
+    runs-on: self-hosted
+
+    steps:
+    - name: Run unit tests
       run: .\test.bat
 
+  upload_artifacts:
+    runs-on: self-hosted
+
+    steps:
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4
       with:
