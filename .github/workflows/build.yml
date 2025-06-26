@@ -20,21 +20,12 @@ jobs:
       run: .\build_prj.bat
 
   # Build unit test project
-  Build_Unit_Tests:
+  Run_Unit_Tests:
     needs: Build_CVI_Project
     runs-on: self-hosted
 
     steps:
-    - name: Build unit tests
-      run: .\build_tests.bat
-
-  # Run unit test executable
-  Run_Unit_Tests:
-    needs: Build_Unit_Tests
-    runs-on: self-hosted
-
-    steps:
-    - name: Run unit tests
+    - name: Build and run unit tests
       run: .\run_tests.bat
 
   # Upload artifacts
