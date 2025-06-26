@@ -17,8 +17,8 @@ jobs:
     - name: Run CVI build script
       run: .\build.bat
  
-    #- name: Run tests
-    #  run: .\test.bat
+    - name: Run tests
+      run: .\test.bat
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v4

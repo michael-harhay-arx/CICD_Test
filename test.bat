@@ -1,29 +1,30 @@
 @echo off
-rem Compile unit tests
+
+rem ------------ Compile Unit Tests ------------
 echo [INFO] Building unit tests...
 
-rem Adjust this if you installed CVI to a different location
-set CVI_PATH="C:\Program Files (x86)\National Instruments\CVI2019"
-set SRC_FILE=unit_test.c
-set EXE_FILE=unit_test.exe
+rem Set project and CVI path
+set PROJECT_PATH=C:\Users\Michael_Harhay\Desktop\CICD_Test\UnitTests\UnitTests.prj
+set CVI_EXE=compile.exe
 
-rem Change to script's directory
-cd /d %~dp0
+rem Run CVI to build the project
+%CVI_EXE% %PROJECT_PATH%
 
-rem Compile and link into EXE
-%CVI_PATH%\bin\compile.exe %SRC_FILE% -o %EXE_FILE%
-
+rem Check for errors
 if %errorlevel% neq 0 (
-    echo [ERROR] Compilation failed.
+    echo [ERROR] Build failed with error code %errorlevel%.
     exit /b %errorlevel%
+) else (
+    echo [SUCCESS] Build completed successfully.
 )
 
 
-rem Run unit tests
+rem ------------ Run Unit Tests ------------
 echo [INFO] Running unit tests...
 cd /d "C:\Users\Michael_Harhay\Desktop\CICD_Test\UnitTests"
 start /wait UnitTests.exe
 
+rem Check for errors
 if %errorlevel% neq 0 (
     echo [ERROR] Unit tests failed with error code %errorlevel%.
     exit /b %errorlevel%
