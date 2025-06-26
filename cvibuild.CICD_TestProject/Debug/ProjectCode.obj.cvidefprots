@@ -1,5 +1,10 @@
 [TestStep_SetX]
 Class="Function"
 Prototype="int TestStep_SetX(int x);"
-SourceLocation="c:\Users\Michael_Harhay\Desktop\CICD_Test\ProjectCode.c:3:1"
+SourceLocation="c:\Users\Michael_Harhay\Desktop\CICD_Test\ProjectCode.c:5:1"
+
+[DllMain]
+Class="Function"
+Prototype="int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
+SourceLocation="c:\Users\Michael_Harhay\Desktop\CICD_Test\ProjectCode.c:13:1"
 
