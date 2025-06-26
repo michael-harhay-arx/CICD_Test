@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "michael-harhay-arx/CICD_Test",
+  "pipelineDirectory": "CICD_Test",
+  "workspaceDirectory": "CICD_Test\\CICD_Test",
+  "repositories": {
+    "michael-harhay-arx/CICD_Test": {
+      "repositoryPath": "CICD_Test\\CICD_Test",
+      "lastRunOn": "06/26/2025 10:23:32 -04:00"
+    }
+  },
+  "lastRunOn": "06/26/2025 10:23:32 -04:00"
+}

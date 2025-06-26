@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "CVI-RUNNER",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus13.actions.githubusercontent.com/3xdDeZjAuQjMdG01lqsG7wBAsVZsAfahdAJgbQwNDESCJFrKmj/",
+  "gitHubUrl": "https://github.com/michael-harhay-arx/CICD_Test",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
