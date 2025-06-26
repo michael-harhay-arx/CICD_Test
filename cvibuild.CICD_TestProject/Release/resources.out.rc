@@ -40,7 +40,7 @@ END
 
 CVIDLLexports CVIDLLprototypes
 {
-   "int main();"
+   "int TestStep_SetX(int x);"
    "\n",
    "\0"
 }

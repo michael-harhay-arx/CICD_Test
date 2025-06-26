@@ -1,4 +1,5 @@
-HDRS = 	"C:\\Users\\Public\\Documents\\National Instruments\\TestStand 2017 (32-bit)\\AdapterSupport\\CVI"
+HDRS = 	"c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test"
+	"C:\\Users\\Public\\Documents\\National Instruments\\TestStand 2017 (32-bit)\\AdapterSupport\\CVI"
 	"C:\\Program Files (x86)\\National Instruments\\TestStand 2017\\API\\DLLInterfaces"
 	"C:\\Arxtron\\Libraries"
 	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr\\TestStand\\API"
@@ -31,9 +32,16 @@ HDRS = 	"C:\\Users\\Public\\Documents\\National Instruments\\TestStand 2017 (32-
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
+LOCATE on "main.c" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests" ;
 LOCATE on "UnitTests.c" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests" ;
+LOCATE on "UnitTests.h" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests" ;
+Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\main.c" ;
+FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj" = 1 ;
+DEFPROTS on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj.out" ;
+PrjObjects += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj" ;
 Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\UnitTests.c" ;
-FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" = 1 ;
+FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" = 2 ;
 DEFPROTS on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj.cvidefprots" ;
 OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj.out" ;
 PrjObjects += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" ;

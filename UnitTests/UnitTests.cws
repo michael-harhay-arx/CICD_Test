@@ -52,14 +52,14 @@ Disk Date = 3833806693
 In Projects = "1,"
 Source Window State = "1,13,13,13,1,1,1,0,0,0,0,0,0,0,0,0,0,0,13,1,400,600,1,0,"
 Window Top = 31
-Window Z-Order = 1
+Window Z-Order = 3
 
 [File 0002]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.h"
 File Type = "Include"
 Disk Date = 3833811696
 In Projects = "1,"
-Source Window State = "1,20,20,20,23,23,23,0,0,0,0,0,0,0,0,0,3,0,20,23,401,686,1,0,"
+Source Window State = "1,20,20,20,23,23,23,0,0,0,0,0,0,0,0,0,0,0,20,23,401,686,1,0,"
 Window Top = 33
 Window Left = 10
 Window Z-Order = 2
@@ -69,15 +69,15 @@ Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/main.c"
 File Type = "CSource"
 Disk Date = 3833806759
 In Projects = "1,"
-Source Window State = "1,14,14,14,1,1,1,0,0,0,0,0,0,0,0,0,0,0,14,1,401,686,1,0,"
+Source Window State = "1,2,2,2,10,10,10,0,0,0,0,0,0,0,0,0,0,0,2,10,401,686,1,0,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 3
+Window Z-Order = 1
 
 [File 0004]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/CICD_TestProject.lib"
 File Type = "Library"
-Disk Date = 3833811581
+Disk Date = 3833812372
 In Projects = "1,"
 
 [Tab Order]

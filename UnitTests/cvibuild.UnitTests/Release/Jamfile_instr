@@ -1,3 +1,4 @@
+Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\main.obj" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.obj" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin\\msvc\\advanlys.lib" ;
 NoCare "c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin\\msvc\\advanlys.lib" ;
@@ -5,6 +6,8 @@ Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.Unit
 NoCare "C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86\\advapi32.lib" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86\\bufferoverflowu.lib" ;
 NoCare "C:\\Program Files (x86)\\Windows Kits\\8.1\\Lib\\winv6.3\\um\\x86\\bufferoverflowu.lib" ;
+Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\msvc\\CICD_TestProject.lib" ;
+NoCare "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\msvc\\CICD_TestProject.lib" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin\\msvc\\cviauto.lib" ;
 NoCare "c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin\\msvc\\cviauto.lib" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\UnitTests\\cvibuild.UnitTests\\Release\\UnitTests.exe" : "c:\\Program Files (x86)\\National Instruments\\CVI2019\\bin\\msvc\\cvidotnet.lib" ;

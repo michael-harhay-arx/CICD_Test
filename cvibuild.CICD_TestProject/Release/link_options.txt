@@ -14,7 +14,7 @@
 -browsedeps:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\moduledependencies.txt
 -stackreserve:1048576
 -stackcommit:4096
--in:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\main.obj
+-in:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\ProjectCode.obj
 -more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvistart.lib
 -more:c:\program files (x86)\national instruments\cvi2019\bin\msvc\cvi.lib
 -more:c:\Program Files (x86)\National Instruments\CVI2019\bin\msvc\advanlys.lib
