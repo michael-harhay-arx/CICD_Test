@@ -1,5 +1,6 @@
 -nologo
 -out:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\CICD_TestProject.dll
+-def:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\CICD_TestProject.dll.defs
 -implib:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\CICD_TestProject.lib
 -ignoreexports
 -dependenciesMapFile:c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\dependencies.lnk.in

@@ -1,5 +1,6 @@
 -inrc c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\resources.in.rc
 -outrc c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\resources.out.rc
+-inhdef c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\ProjectCode.h.hdefs
 -outdef c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\CICD_TestProject.dll.defs
 -indefprot c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Release\ProjectCode.obj.cvidefprots
 -dllName CICD_TestProject.dll

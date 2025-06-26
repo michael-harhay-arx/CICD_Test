@@ -38,10 +38,15 @@ FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestPro
 DEFPROTS on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.obj.cvidefprots" ;
 OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.obj.out" ;
 PrjObjects += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.obj" ;
+Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.h.hdefs" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\ProjectCode.h" ;
+FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.h.hdefs" = 2 ;
+OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.h.hdefs" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\ProjectCode.h.hdefs.out" ;
 PreLinkInputs += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.in.rc" ;
 PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
 PreLinkOutputs += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.out.rc" ;
+PreLinkOutputs += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\CICD_TestProject.dll.defs" ;
 PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\CICD_TestProject.dll" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\CICD_TestProject.dll.defs" ;
 Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.res" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.out.rc" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.res" : $(PreLinkOutputs) ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.res" "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Release\\resources.out.rc" : $(PrjObjects) $(InstrObjects) ;
