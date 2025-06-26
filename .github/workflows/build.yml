@@ -18,6 +18,7 @@ jobs:
       run: .\build.bat
 
   test:
+    needs: build
     runs-on: self-hosted
 
     steps:
@@ -25,6 +26,7 @@ jobs:
       run: .\test.bat
 
   upload_artifacts:
+    needs: test
     runs-on: self-hosted
 
     steps:
