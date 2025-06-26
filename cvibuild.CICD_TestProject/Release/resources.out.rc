@@ -40,8 +40,6 @@ END
 
 CVIDLLexports CVIDLLprototypes
 {
-   "int DllMain(struct HINSTANCE__ *hinstDLL, unsigned long fdwReason, void *lpvReserved);"
-   "\n",
    "int TestStep_SetX(int x);"
    "\n",
    "\0"

@@ -50,11 +50,11 @@ Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.c"
 File Type = "CSource"
 Disk Date = 3833806693
 In Projects = "1,"
-Source Window State = "1,8,8,8,8,8,8,0,0,0,0,0,0,0,0,0,0,0,8,8,400,600,1,0,"
+Source Window State = "1,8,8,8,33,33,33,0,0,0,0,0,0,0,0,0,0,0,8,33,400,600,1,0,"
 Breakpoint 0001 = "9,0,enabled,"
 Tracepoint 0001 = "0,0,10,1,"
 Window Top = 31
-Window Z-Order = 1
+Window Z-Order = 2
 
 [File 0002]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/UnitTests.h"
@@ -95,12 +95,12 @@ Window Z-Order = 3
 [File 0006]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.c"
 File Type = "CSource"
-Disk Date = 3833816199
+Disk Date = 3833817641
 In Projects = ""
-Source Window State = "1,9,9,9,29,29,29,0,0,0,0,0,0,0,0,0,0,0,9,29,401,630,1,0,"
+Source Window State = "1,9,9,9,17,18,18,0,3,0,0,0,0,0,0,0,0,0,9,17,401,630,1,0,"
 Window Top = 126
 Window Left = 58
-Window Z-Order = 2
+Window Z-Order = 1
 
 [Tab Order]
 Tab 0001 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/UnitTests/main.c"
