@@ -25,6 +25,6 @@ jobs:
       with:
         name: CVI-Build-Output
         path: |
-          **\*.dll
-          **\*.lib
-          **\*.h
+          *.dll
+          *.lib
+          *.h
