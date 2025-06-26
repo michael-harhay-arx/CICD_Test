@@ -30,7 +30,7 @@ Save Changes Before Compiling = "Always"
 Hide Windows = False
 Break At First Statement = False
 Sort Type = "File Name"
-Number of Opened Files = 2
+Number of Opened Files = 3
 Window Confinement Region Enabled = True
 MainColumnWidth = 337
 FileDateColumnWidth = 70
@@ -48,23 +48,35 @@ Batch Build Debug = False
 [File 0001]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/main.c"
 File Type = "CSource"
-Disk Date = 3833729333
-In Projects = "1,"
-Source Window State = "1,2,2,2,18,18,18,0,0,0,0,0,0,0,0,0,0,0,2,18,400,600,1,0,"
+Disk Date = 3833811363
+In Projects = ""
+Source Window State = "1,7,7,7,1,1,1,0,0,0,0,0,0,0,0,0,0,0,7,1,400,600,1,0,"
 Window Top = 31
 Window Z-Order = 2
 
 [File 0002]
 Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
 File Type = "Include"
-Disk Date = 3833793395
+Disk Date = 3833806389
 In Projects = "1,"
-Source Window State = "1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400,600,0,0,"
+Source Window State = "1,31,31,31,26,26,26,0,0,0,0,0,0,0,0,0,0,0,31,26,400,600,1,0,"
+Window Top = 31
+Window Z-Order = 3
+
+[File 0003]
+Path = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.c"
+File Type = "CSource"
+Disk Date = 3833806454
+In Projects = "1,"
+Source Window State = "1,5,5,5,1,1,1,0,0,0,0,0,0,0,0,0,0,0,5,1,401,686,1,0,"
+Window Top = 64
+Window Left = 26
 Window Z-Order = 1
 
 [Tab Order]
 Tab 0001 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/main.c"
-Tab 0002 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
+Tab 0002 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.c"
+Tab 0003 = "/c/Users/Michael_Harhay/Desktop/CICD_Test/ProjectCode.h"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True

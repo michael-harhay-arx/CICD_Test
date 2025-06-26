@@ -1,12 +1,12 @@
 /***************************************************************************//*!
-* \file ProjectCode.h
+* \file UnitTests.h
 * \author 
 * \copyright . All Rights Reserved.
-* \date 2025-06-26 10:36:35 AM
+* \date 2025-06-26 12:33:21 PM
 *******************************************************************************/
 
-#ifndef __ProjectCode_H__
-#define __ProjectCode_H__
+#ifndef __UnitTests_H__
+#define __UnitTests_H__
 
 #ifdef __cplusplus
     extern "C" {
@@ -16,6 +16,9 @@
 // Include files
 
 #include "cvidef.h"
+#include <stdio.h>
+		
+#include "ProjectCode.h"
 
 //==============================================================================
 // Constants
@@ -29,10 +32,10 @@
 //==============================================================================
 // Global functions
 
-int TestStep_SetX (int x);
+int UnitTest_XNonZero ();
 
 #ifdef __cplusplus
     }
 #endif
 
-#endif  /* ndef __ProjectCode_H__ */
+#endif  /* ndef __UnitTests_H__ */

@@ -1,0 +1,8 @@
+cvi.lib
+cvirte.dll
+CICD_TestProject.lib
+CICD_TestProject.dll
+kernel32.lib
+KERNEL32.dll
+user32.lib
+USER32.dll

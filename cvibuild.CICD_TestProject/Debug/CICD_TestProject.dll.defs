@@ -1,3 +1,4 @@
 LIBRARY CICD_TestProject
 
 EXPORTS
+TestStep_SetX

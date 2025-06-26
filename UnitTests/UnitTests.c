@@ -1,10 +1,14 @@
 // Tests
 
-#include <stdio.h>
+#include <UnitTests.h>
 
-int main() {
-    
-
-    printf("All tests passed.\n");
-    return 0;
+// Pass if x is nonzero
+int UnitTest_XNonZero () {
+	
+	// Fail if X is zero
+	if (TestStep_SetX (1) == 0) {
+		return 1;
+	}
+	
+	return 0;
 }

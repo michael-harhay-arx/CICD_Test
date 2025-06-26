@@ -32,17 +32,22 @@ HDRS = 	"C:\\Users\\Public\\Documents\\National Instruments\\TestStand 2017 (32-
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
-LOCATE on "main.c" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test" ;
+LOCATE on "ProjectCode.c" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test" ;
 LOCATE on "ProjectCode.h" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test" ;
-Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\main.c" ;
-FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj" = 1 ;
-DEFPROTS on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj.cvidefprots" ;
-OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj.out" ;
-PrjObjects += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\main.obj" ;
+Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\ProjectCode.c" ;
+FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj" = 1 ;
+DEFPROTS on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj.cvidefprots" ;
+OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj.out" ;
+PrjObjects += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.obj" ;
+Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.h.hdefs" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\ProjectCode.h" ;
+FILENUM on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.h.hdefs" = 2 ;
+OUTFILE on "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.h.hdefs" = "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\ProjectCode.h.hdefs.out" ;
 PreLinkInputs += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.in.rc" ;
 PreLinkInputs += $(PrjObjects) $(InstrObjects) ;
 PreLinkOutputs += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.out.rc" ;
+PreLinkOutputs += "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\CICD_TestProject.dll.defs" ;
 PreLink $(PreLinkOutputs) : $(PreLinkInputs) ;
+Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\CICD_TestProject.dll" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\CICD_TestProject.dll.defs" ;
 Object "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.res" : "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.out.rc" ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.res" : $(PreLinkOutputs) ;
 Depends "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.res" "c:\\Users\\Michael_Harhay\\Desktop\\CICD_Test\\cvibuild.CICD_TestProject\\Debug\\resources.out.rc" : $(PrjObjects) $(InstrObjects) ;

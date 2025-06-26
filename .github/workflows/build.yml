@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  Build_CVI_Project:
     runs-on: self-hosted
 
     steps:
@@ -17,16 +17,16 @@ jobs:
     - name: Build CVI project
       run: .\build.bat
 
-  test:
-    needs: build
+  Run_Unit_Tests:
+    needs: Build_CVI_Project
     runs-on: self-hosted
 
     steps:
     - name: Run unit tests
       run: .\test.bat
 
-  upload_artifacts:
-    needs: test
+  Upload_Artifacts:
+    needs: Run_Unit_Tests
     runs-on: self-hosted
 
     steps:

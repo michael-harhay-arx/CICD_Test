@@ -1,0 +1,4 @@
+[TestStep_SetX]
+Class="Function"
+Prototype="int TestStep_SetX(int x);"
+

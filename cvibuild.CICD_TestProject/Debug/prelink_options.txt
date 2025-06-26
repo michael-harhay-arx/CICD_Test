@@ -1,6 +1,7 @@
 -inrc c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Debug\resources.in.rc
 -outrc c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Debug\resources.out.rc
+-inhdef c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Debug\ProjectCode.h.hdefs
 -outdef c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Debug\CICD_TestProject.dll.defs
--indefprot c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Debug\main.obj.cvidefprots
+-indefprot c:\Users\Michael_Harhay\Desktop\CICD_Test\cvibuild.CICD_TestProject\Debug\ProjectCode.obj.cvidefprots
 -dllName CICD_TestProject.dll
 -addNITypeInfo 

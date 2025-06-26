@@ -1,4 +1,4 @@
-main.obj
+ProjectCode.obj
 cvistart.lib
 cvi.lib
 kernel32.lib

@@ -1,0 +1,1 @@
+-force-include-file "main.c";"c:\Users\Michael_Harhay\Desktop\CICD_Test\UnitTests\main.c" -force-include-file "UnitTests.c";"c:\Users\Michael_Harhay\Desktop\CICD_Test\UnitTests\UnitTests.c" -force-include-file "UnitTests.h";"c:\Users\Michael_Harhay\Desktop\CICD_Test\UnitTests\UnitTests.h" 
